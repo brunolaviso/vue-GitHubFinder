@@ -10,7 +10,7 @@
                         <li class="list-group-item">Seguindo: <span class="badge-info">{{ user.following }}</span></li>
                     </ul>
                     <div class="card-body">
-                        <a :href="user.html_url" class="btn btn-success btn-block">Ver Perfil</a>
+                        <a :href="user.html_url" class="btn btn-success btn-block" target="_blank">Ver Perfil</a>
                     </div>
                 </div>
             </div>
